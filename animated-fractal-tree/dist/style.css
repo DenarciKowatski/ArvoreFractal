@@ -1,0 +1,11 @@
+body{
+  background-color: #888  
+}
+.tree-container{
+  width: 500px;
+  height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+  background-color: black;
+  margin-top: 8px;
+}

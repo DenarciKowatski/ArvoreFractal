@@ -1,0 +1,16 @@
+<form>
+  <select id="tree-multi">
+    <option value="2">Multiplicity: 2</option>
+    <option value="3">Multiplicity: 3</option>
+    <option value="4">Multiplicity: 4</option>
+    <option value="5" selected>Multiplicity: 5</option>
+    <option value="6">Multiplicity: 6</option>
+    <option value="7">Multiplicity: 7</option>
+  </select>
+  <br/>
+  <label for="tree-ratio">Ratio</label>
+  <input id="tree-ratio" type="range" min="0" max="1" value="0.6" step="0.01"/>
+</form>
+<div class="tree-container">
+	<canvas id="tree" width="500" height="600"></canvas>
+</div>
